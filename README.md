@@ -19,7 +19,7 @@ To use this note, you can either:
 There are two styles of headers in Markdown.
 
 **Atx-style**
->
+
 # H1
 ## H2
 ### H3
@@ -29,7 +29,7 @@ There are two styles of headers in Markdown.
 
 </br>
 **Setext-Style**
->
+
 
 H1
 =======
