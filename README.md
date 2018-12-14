@@ -76,7 +76,7 @@ id sem consectetuer libero luctus adipiscing.
 > 
 >     return hellow world
 
-##List
+## List
 
 > * Red
 > * Blue
@@ -144,7 +144,7 @@ Visit [Daring Fireball][] for more information.
 
 </br></br></br></br>
 
-#####Reference: 
+##### Reference: 
 1. [http://wow.kuapp.com/markdown/#header][r1]
 2. [https://daringfireball.net/projects/markdown/syntax#p][r2]
 
