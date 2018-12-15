@@ -1,19 +1,12 @@
 # Markdown Study Note
 
-## How?
-
-To use this note, you can either:
-
-1. Save and open it with a Markdown Editor such as Macdown, or
-2. View it using the Github editor mode.
-</br>
-
 ## Why Markdown? 
 
 - Plain text. Highly compatibility. Opened using any text editor.
 - Focus on content instead of layout
 - Convert to html, ebook, etc.
 - highly readable
+
 </br>
 
 ## Headers
@@ -22,43 +15,71 @@ There are two styles of headers in Markdown.
 
 **1. Atx-style**
 
+
+     # H1
 # H1
+     ## H2
 ## H2
+     ### H3
 ### H3
+     #### H4
 #### H4
+     ##### H5
 ##### H5
+     ###### H6
 ###### H6
 
 
 **2. Setext-Style**
 
 
+     H1
+     =======
 H1
 =======
 
+     H2
+     --------
 H2
 --------
 
 </br>
 
 ## Blockquotes
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+	> This is a blockquoted paragraph
+	> bbbbb ccccc dd eeeeee fffff ggggg.
+	> aaaaaaa bbbb cccc, ddddddd ee, ffffffff gg.
+
+> This is a blockquoted paragraph
+> bbbbb ccccc dd eeeeee fffff ggggg.
+> aaaaaaa bbbb cccc, ddddddd ee, ffffffff gg.
+
+</br>
 
 **Or you can use > in the beginning of a whole paragraph**
 
+	> This is a blockquote with two paragraphs. Lorem 	ipsum dolor sit amet,
+	consectetuer adipiscing elit. Aliquam hendrerit mi 	posuere lectus.
+
+	> Donec sit amet nisl. Aliquam semper ipsum sit amet 	velit. Suspendisse
+	id sem consectetuer libero luctus adipiscing.
+
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.
 
+</br>
+
 **Blockquotes could be nested.**
+
+	> This is the first level of quoting.
+	>
+	> > This is nested blockquote.
+	>
+	> Back to the first level.
+	> 
 
 > This is the first level of quoting.
 >
@@ -67,8 +88,18 @@ id sem consectetuer libero luctus adipiscing.
 > Back to the first level.
 > 
 
-
+</br>
 **Other Markdown syntaxes are supported inside a blockquote.**
+
+	> ### This is a header
+	> 
+	> 1.   This is the 1st line of a list
+	> 2.   This is the 2nd line of a list
+	> 
+	> code block:
+	> 
+	>     return hellow world
+
 
 > ### This is a header
 > 
@@ -82,22 +113,33 @@ id sem consectetuer libero luctus adipiscing.
 </br>
 
 ## List
-
-> * Red
-> * Blue
-> * Yellow
-
-***
-
-> + Red
-> + Blue
-> + Yellow
+      * Red
+      * Blue
+      * Yellow
+ 
+ * Red
+ * Blue
+ * Yellow
 
 ***
 
-> 1. Red
-> 2. Blue
-> 3. Yellow
+      + Red
+      + Blue
+      + Yellow
+ 
+ + Red
+ + Blue
+ + Yellow
+
+***
+
+      1. Red
+      2. Blue
+      3. Yellow
+ 
+ 1. Red
+ 2. Blue
+ 3. Yellow
 
 </br>
 
@@ -106,34 +148,46 @@ To produce a code block in Markdown, simply indent every line of the block by at
 
 **Example Code:**
 
-	Str = "hellow world!"
-	return Str
+*(4 spaces or 1 tab)* Str = "hellow world!"</br>
+*(4 spaces or 1 tab)* return Str
+
+     Str = "hellow world!"
+     return Str
 
 </br>
 
 ## Horizontal Rules
 
-content
 
-* * *
+    * * *
+ 
+ * * *
 
-content
+</br>
 
+    ***
+ 
 ***
 
-content
+</br>
 
-*****
+    *****
+ 
+ *****
 
-content
+</br>
 
-- - -
+    - - -
+ 
+ - - -
 
-content
+</br>
 
----------------------------------------
+    ---------------------------------------
+ 
+ ---------------------------------------
 
-content
+
 
 </br>
 
@@ -141,16 +195,26 @@ content
 
 **Inline Links**
 
+     This is [an example](http://example.com/ "Title") inline link.
+
 This is [an example](http://example.com/ "Title") inline link.
 
+
+
+    This is [another example](http://example.com/ "Title") inline link.
 This is [another example](http://example.com/ "Title") inline link.
+
+</br>
 
 **Reference Links**
 
-This is [an example][id] reference-style link.
 
-
-[id]: http://example.com/  "Optional Title Here"
+     This is [an example][id] reference-style link.
+ 
+     [id]: http://example.com/  "Optional Title Here"
+ 
+  This is [an example][id] reference-style link.
+  [id]: http://example.com/  "Optional Title Here"
 
 
 </br></br></br></br>
