@@ -6,16 +6,16 @@ To use this note, you can either:
 
 1. Save and open it with a Markdown Editor such as Macdown, or
 2. View it using the Github editor mode.
-
 </br>
+
 ## Why Markdown? 
 
 - Plain text. Highly compatibility. Opened using any text editor.
 - Focus on content instead of layout
 - Convert to html, ebook, etc.
 - highly readable
-
 </br>
+
 ## Headers
 
 There are two styles of headers in Markdown.
@@ -40,6 +40,7 @@ H2
 --------
 
 </br>
+
 ## Blockquotes
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -98,6 +99,7 @@ id sem consectetuer libero luctus adipiscing.
 > 3. Yellow
 
 </br>
+
 ## Code Blocks
 To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab.
 
@@ -107,6 +109,7 @@ To produce a code block in Markdown, simply indent every line of the block by at
 	return Str
 
 </br>
+
 ## Horizontal Rules
 
 content
@@ -132,6 +135,7 @@ content
 content
 
 </br>
+
 ## Links
 
 **Inline Links**
