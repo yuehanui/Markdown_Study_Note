@@ -30,6 +30,7 @@ There are two styles of headers in Markdown.
 ###### H6
 
 </br>
+
 **Setext-Style**
 
 
@@ -80,6 +81,7 @@ id sem consectetuer libero luctus adipiscing.
 >     return hellow world
 
 </br>
+
 ## List
 
 > * Red
@@ -147,9 +149,6 @@ This is [an example](http://example.com/ "Title") inline link.
 This is [an example][id] reference-style link.
 
 [id]: http://example.com/  "Optional Title Here"
-
-Visit [Daring Fireball][] for more information.
-[Daring Fireball]: http://daringfireball.net/
 
 
 </br></br></br></br>
